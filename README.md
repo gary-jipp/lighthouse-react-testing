@@ -1,3 +1,6 @@
-# Friends App
+# Unit & Integration Testing
 
-Starting point for Cypress Testing
+- [ ] Almost identical to Mocha
+- [ ] Jest Assertions - built in
+- [ ] Testing Functions
+- [ ]
