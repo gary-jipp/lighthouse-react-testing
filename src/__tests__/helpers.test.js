@@ -36,11 +36,11 @@ describe('Helper tests', () => {
 
     const nathan = {"name": "Nathan Brown", "uid": 5};
     // expect(moreFriends).toContain("Nathan Brown"); // Doesn't work!
-    expect(moreFriends).toContainEqual(nathan); // Doesn't work!
+    expect(moreFriends).toContainEqual(nathan); // Need this instead
   });
 
 
-  //---------------------------------------
+  //----------- MUTATEd STATE -------------
   it("state should not be mutated", () => {
     const names = getFriendNames(data);
     expect(names).not.toContain("Nathan Brown");
