@@ -1,3 +1,6 @@
-# Friends App
+# Unit & Integration Testing
 
-Starting point for Cypress Testing
+- [ ] Notice how jest handles async operations (promises)
+- [ ] Calling APIs can return unpredictable data
+- [ ] Testing Functions
+- [ ]
