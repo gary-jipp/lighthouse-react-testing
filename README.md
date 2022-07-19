@@ -8,7 +8,7 @@
 - [ ] Mocking functions / modules
 - [ ] Testing React Components
 - [ ] Searching for Elements
-- [ ] using Search methods
+- [ ] Search methods
 - [ ] Search Priority
 - [ ] Interacting with Components
 - [ ] Integration Testing
