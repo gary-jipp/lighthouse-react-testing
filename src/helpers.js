@@ -16,13 +16,12 @@ export function getFriendNames(list) {
   return list.map(item => item.name);
 }
 
-export function addFriend(list, name) {
+export function addFriend(list, name, uid = uniqid()) {
   if (!list) {
-    return [];
-  }
+  return [];
+}
 
-  const uid = uniqid();
-  return [...list, {name, uid}];
+return [...list, {name, uid}];
 }
 
 export function removeFriend(list, uid) {
