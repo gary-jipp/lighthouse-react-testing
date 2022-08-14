@@ -3,9 +3,9 @@ import Header from 'components/Header';
 import Input from 'components/Input';
 import FriendList from 'components/FriendList';
 import axios from 'axios';
-import uniqid from 'uniqid';
+
 import 'App.css';
-import {getFriendCount} from 'helpers';
+import {addFriend, getFriendCount, removeFriend} from 'helpers';
 
 export default function App() {
   const [data, setData] = useState([]);
@@ -24,22 +24,6 @@ export default function App() {
     setData(removeFriend(data, uid));
   };
 
-  function addFriend(list, name) {
-    if (!list) {
-      return [];
-    }
-
-    const uid = uniqid();
-    return [...list, {name, uid}];
-  }
-
-  function removeFriend(list, uid) {
-    if (!list) {
-      return [];
-    }
-
-    return list.filter(item => item.uid !== uid);
-  }
 
   const title = `My Friends: ${getFriendCount(data)}`;
 
