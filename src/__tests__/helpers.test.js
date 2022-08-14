@@ -51,7 +51,7 @@ describe('Helper tests', () => {
   //---------------------------------------
   it("removes unwanted friend", () => {
     const tom = {name: "Tom Cruise", uid: "4"};
-    
+
     expect(data).toContainEqual(tom);
     // expect(data).toContain(tom);  // Note this doesnt work
 
