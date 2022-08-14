@@ -1,14 +1,15 @@
 import {screen, render, cleanup, fireEvent, prettyDOM} from "@testing-library/react";
 import '@testing-library/jest-dom';
 import App from "App";
-const {getNewFriends} = require("helpers");
-jest.mock('helpers');
+const {getNewFriends} = require("helpers/fetch");
+jest.mock('helpers/fetch');
 
 const data = [
   {name: "Betty White", uid: "1"},
   {name: "Freddy Mercury", uid: "2"},
   {name: "James Holden", uid: "3"},
   {name: "Tom Cruise", uid: "4"},
+  {name: "Nathan Browne", uid: "5"},
 ];
 
 afterEach(cleanup);
@@ -29,7 +30,7 @@ describe('App Tests with Fixture Data', () => {
 
     // Add async and await
     const listItems = await screen.findAllByRole("listitem");
-    expect(listItems.length).toEqual(4);
+    expect(listItems.length).toEqual(5);
 
     const list = screen.getByRole("list");  // this is the <ul> element
     // console.log(prettyDOM(list));
