@@ -7,7 +7,7 @@ const data = [
   {name: "Tom Cruise", uid: "4"},
 ];
 
-describe('Helper Async tests', () => {
+describe('getNewFriends Mock tests', () => {
 
   //---------- ASYNC ----------------------
   // Coverage - getNewFriends

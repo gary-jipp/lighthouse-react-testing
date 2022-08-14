@@ -12,10 +12,10 @@ const data = [
 // This is an  result "res".  Contains .data
 const axiosRes = {data};
 
-describe('Helper Async tests', () => {
+describe('Axios Mock tests', () => {
 
   // getNewFriends (async/await)
-  test("getNewFriends mock returns the same 4 friends", async () => {
+  test("Axios mock returns the same 4 friends", async () => {
 
     console.log(axios);
     // console.log(axios);
