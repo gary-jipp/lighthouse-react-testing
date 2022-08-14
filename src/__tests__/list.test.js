@@ -42,7 +42,7 @@ describe('Helper tests', () => {
 
 
   //----------- MUTATED STATE -------------
-  it("state should not be mutated", () => {
+  it("state should not be mutated after last test", () => {
     const names = getFriendNames(data);
     expect(names).not.toContain("Nathan Brown");
     expect(names.length).toBe(4);
