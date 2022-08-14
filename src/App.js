@@ -9,7 +9,7 @@ import 'App.css';
 export default function App() {
   const [data, setData] = useState([]);
   const newFriends = useCallback(() => {
-    getNewFriends(6)
+    getNewFriends(5)
       .then(res => setData(res));
   }, []);
 
