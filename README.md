@@ -2,9 +2,13 @@
 
 - [ ] Calling APIs can return unpredictable data
 - [ ] Can Mock modules
-- [ ] mocked module methods - lots of options
+- [ ] Several ways to do this:
+- [ ] `__mocks__` directory is one way. Scheduler App uses this method
+- [ ] `jest.mock()` is the newer, more common way now
+- [ ] We can mock the underlying module (axios)
+- [ ] mock & console log axios
+- [ ] mocked module methods - lots to use.
 - [ ] important! result must match what module returns
 - [ ] Ok to mock low level modules, but better to mock interfaces
 - [ ] Jest Mocking is a whole topic by itself.  Lots of options
 - [ ] jest.mock()  vs jest.spyOn()  vs jest.fn()
-- [ ] We will use jest.mock() here

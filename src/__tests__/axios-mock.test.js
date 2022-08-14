@@ -17,6 +17,7 @@ describe('Helper Async tests', () => {
   // getNewFriends (async/await)
   test("getNewFriends mock returns the same 4 friends", async () => {
 
+    console.log(axios);
     // console.log(axios);
     axios.get.mockResolvedValueOnce(axiosRes);
 
