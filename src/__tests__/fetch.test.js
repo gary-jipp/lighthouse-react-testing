@@ -27,7 +27,7 @@ describe('Helper Async tests', () => {
     expect(friends.length).toBe(4);
 
     // We can't really test much else
-    console.log(friends);
+    // console.log(friends);
   });
 
 });
