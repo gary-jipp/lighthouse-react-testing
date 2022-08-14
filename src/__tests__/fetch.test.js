@@ -1,4 +1,4 @@
-const {getNewFriends} = require("helpers/friends");
+const {getNewFriends} = require("helpers/fetch");
 
 const data = [
   {name: "Betty White", uid: "1"},
