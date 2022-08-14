@@ -1,4 +1,4 @@
-const {getNewFriends} = require("helpers");
+const {getNewFriends} = require("helpers/fetch");
 const axios = require('axios');
 jest.mock('axios');
 
