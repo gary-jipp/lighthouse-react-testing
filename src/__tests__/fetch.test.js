@@ -7,11 +7,11 @@ const data = [
   {name: "Tom Cruise", uid: "4"},
 ];
 
-describe('getNewFriends Mock tests', () => {
+describe('getNewFriends tests', () => {
 
   //---------- ASYNC ----------------------
   // Coverage - getNewFriends
-  test("getNewFriends returns 4 new friends", () => {
+  test("getNewFriends returns 4 random new friends", () => {
     return getNewFriends(4)
       .then(friends => {
         expect(friends.length).toBe(4);
