@@ -3,7 +3,7 @@ import Header from 'components/Header';
 import Input from 'components/Input';
 import FriendList from 'components/FriendList';
 import {addFriend, getFriendCount, removeFriend} from 'helpers/list';
-import {getNewFriends} from 'helpers/friends';
+import {getNewFriends} from 'helpers/fetch';
 import 'App.css';
 
 export default function App() {
