@@ -11,7 +11,7 @@ describe('getNewFriends tests', () => {
 
   //---------- ASYNC ----------------------
   // Coverage - getNewFriends
-  test("getNewFriends returns 4 random new friends", () => {
+  test("getNewFriends returns 4 random friends", () => {
     return getNewFriends(4)
       .then(friends => {
         expect(friends.length).toBe(4);
