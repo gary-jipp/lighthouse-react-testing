@@ -1,4 +1,4 @@
-const {getFriendCount, addFriend, removeFriend, getFriendNames} = require("helpers");
+const {getFriendCount, addFriend, removeFriend, getFriendNames} = require("helpers/list");
 
 const data = [
   {name: "Betty White", uid: "1"},
@@ -62,7 +62,7 @@ describe('Helper tests', () => {
     const result = addFriend(null, "tom");
     expect(result.length).toBe(0);
   });
-  
+
   // Coverage - getFriendNames: null list
   test("removeFriend returns empty if list is null", () => {
     const result = removeFriend(null, 4);

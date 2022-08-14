@@ -5,7 +5,7 @@ import FriendList from 'components/FriendList';
 import axios from 'axios';
 
 import 'App.css';
-import {addFriend, getFriendCount, removeFriend} from 'helpers';
+import {addFriend, getFriendCount, removeFriend} from 'helpers/list';
 
 export default function App() {
   const [data, setData] = useState([]);
