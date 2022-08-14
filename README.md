@@ -1,6 +1,6 @@
 # Unit & Integration Testing
 
-- [ ] Almost identical to Mocha
-- [ ] Jest Assertions - built in
-- [ ] Testing Functions
-- [ ]
+- [ ] Create Coverage Report
+- [ ] `npm test -- --coverage`
+- [ ] Sometimes you may need this instead
+- [ ] `npm test -- --coverage --watchAll`
