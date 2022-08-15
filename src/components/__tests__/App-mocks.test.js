@@ -1,8 +1,8 @@
 import {screen, render, cleanup, fireEvent, prettyDOM} from "@testing-library/react";
 import '@testing-library/jest-dom';
 import App from "App";
-const {getNewFriends} = require("helpers/fetch");
-jest.mock('helpers/fetch');
+const {loadNewFriends} = require("helpers/load");
+jest.mock('helpers/load');
 
 const data = [
   {name: "Betty White", uid: "1"},
@@ -17,7 +17,7 @@ afterEach(cleanup);
 describe('App Tests with Fixture Data', () => {
 
   it("can load fixture data from API", async () => {
-    getNewFriends.mockResolvedValueOnce(data);
+    loadNewFriends.mockResolvedValueOnce(data);
 
     render(<App />);
 
