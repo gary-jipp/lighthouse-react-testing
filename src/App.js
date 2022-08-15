@@ -3,13 +3,13 @@ import Header from 'components/Header';
 import Input from 'components/Input';
 import FriendList from 'components/FriendList';
 import {addFriend, getFriendCount, removeFriend} from 'helpers/list';
-import {getNewFriends} from 'helpers/fetch';
+import {loadNewFriends} from 'helpers/load';
 import 'App.css';
 
 export default function App() {
   const [data, setData] = useState([]);
   const newFriends = useCallback(() => {
-    getNewFriends(5)
+    loadNewFriends(5)
       .then(res => setData(res));
   }, []);
 
