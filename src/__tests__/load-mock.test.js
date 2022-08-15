@@ -1,6 +1,5 @@
 const {loadNewFriends} = require("helpers/load");
-const axios = require('axios');
-jest.mock('axios');
+jest.mock('helpers/load');
 
 const data = [
   {name: "Betty White", uid: "1"},
@@ -9,16 +8,13 @@ const data = [
   {name: "Tom Cruise", uid: "4"},
 ];
 
-// This is an  result "res".  Contains .data
-const axiosRes = {data};
-
-describe('Axios Mock tests', () => {
+describe('loadNewFriends Mock tests', () => {
 
   // getNewFriends (async/await)
   test("loadNewFriends returns the same 4 friends", async () => {
 
-    // console.log(axios);
-    axios.get.mockResolvedValueOnce(axiosRes);
+    console.log(loadNewFriends);
+    loadNewFriends.mockResolvedValueOnce(data);
 
     const friends = await loadNewFriends(4);  // returns res
     expect(friends.length).toBe(4);
@@ -26,7 +22,7 @@ describe('Axios Mock tests', () => {
     const tom = {name: "Tom Cruise", uid: "4"};
     expect(friends).toContainEqual(tom);
 
-    expect(axios.get).toHaveBeenCalled(); // axios.get() was called
+    expect(loadNewFriends).toHaveBeenCalled(); // loadNewFriends was called
   });
 
 
