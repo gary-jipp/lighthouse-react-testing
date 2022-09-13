@@ -8,7 +8,15 @@ export function getFriendCount(list) {
   return list.length;
 }
 
-export function addFriend(list, name, uid=uniqid()) {
+export function getFriendNames(list) {
+  if (!list) {
+    return [];
+  }
+
+  return list.map(item => item.name);
+}
+
+export function addFriend(list, name, uid = uniqid()) {
   if (!list) {
     return [];
   }
@@ -22,12 +30,4 @@ export function removeFriend(list, uid) {
   }
 
   return list.filter(item => item.uid !== uid);
-}
-
-export function getFriendNames(list) {
-  if (!list) {
-    return [];
-  }
-
-  return list.map(item => item.name);
 }
