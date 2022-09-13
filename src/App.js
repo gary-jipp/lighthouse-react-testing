@@ -22,7 +22,6 @@ export default function App() {
     setData(removeFriend(data, uid));
   };
 
-
   const title = `My Friends: ${getFriendCount(data)}`;
 
   return (
