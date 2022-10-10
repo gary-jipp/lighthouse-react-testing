@@ -31,8 +31,6 @@ export default function App() {
       <Input onSave={addItem}></Input>
 
       <button type="button" onClick={newFriends}>Get New Friends</button>
-      <input type="checkbox" />
-
       <FriendList items={data} deleteItem={deleteItem} />
     </div>
   );
