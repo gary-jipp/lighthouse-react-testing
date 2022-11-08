@@ -14,16 +14,18 @@
 - [ ] Integration Testing
 
 
-Mocha - Test Runner
-Chai - Assersion Library
-Jest - Test Runner with lots of built-in assertions
-
 ### Types of Testing
 static - Linting
 unit - testing the smallest piece of the app (function)
 integration - testing pieces working together
 end-to-end - testing the app the way a user would use it
 regression testing - making sure new changes didn't break existing features
+
+
+### Testing Tools
+Mocha - Test Runner
+Chai - Assersion Library
+Jest - Test Runner with lots of built-in assertions
 
 ### Tools for Testing React
 - Jest - test runner
