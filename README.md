@@ -14,6 +14,10 @@
 - [ ] Integration Testing
 
 
+Mocha - Test Runner
+Chai - Assersion Library
+Jest - Test Runner with lots of built-in assertions
+
 ### Types of Testing
 static - Linting
 unit - testing the smallest piece of the app (function)
