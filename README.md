@@ -6,9 +6,9 @@
 - [ ] Unit Testing
 - [ ] Testing functions
 - [ ] Test Coverage
-- [ ] Mocking functions / modules
 - [ ] Testing React Components
 - [ ] Searching for Elements
 - [ ] Search Methods & Priority
 - [ ] Interacting with Components
 - [ ] Integration Testing
+- [ ] Mocking functions / modules
