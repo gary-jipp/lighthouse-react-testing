@@ -1,4 +1,4 @@
-const { useState } = require("react");
+const {useState} = require("react");
 
 const Input = function(props) {
   const [text, setText] = useState("");
@@ -7,15 +7,18 @@ const Input = function(props) {
     setText(event.target.value);
   };
 
-  const save = function() {
+  const save = function(event) {
+    event.preventDefault();
     props.onSave(text);
     setText("");
   };
 
   return (
     <div className='input-form'>
-      <input value={text} onChange={textChanged} placeholder="Enter Name" data-testid="name-input"/>
-      <button onClick={save}>Add Item</button>
+      <form onSubmit={save}>
+        <input value={text} onChange={textChanged} name="name" placeholder="Enter Name" data-testid="name-input" />
+        <button type="submit">Add Item</button>
+      </form>
     </div>
   );
 };
