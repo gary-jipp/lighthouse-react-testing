@@ -1,7 +1,5 @@
 # Unit & Integration Testing
 
-# Unit & Integration Testing
-
 - [ ] Types of testing
 - [ ] Tools for testing React
 - [ ] Structure of Tests
@@ -15,13 +13,38 @@
 - [ ] Integration Testing
 - [ ] Mocking functions / modules
 
-
 ### Types of Testing
-static - Linting
-unit - testing the smallest piece of the app (function)
-integration - testing pieces working together
-end-to-end - testing the app the way a user would use it
-regression testing - making sure new changes didn't break existing features
+ - unit == function
+ - Integration, more than 1 unit (function)
+ - interoperability of function
+ - spectrum => 2 units(fn) , 2, 4........... all (application)
+ - Unit ....... E2E (end to end) A-Z
+ - static - linting
+ - regression testing
+ 
+* unit - testing the smallest piece of the app (function)
+* integration - testing pieces working together
+* end-to-end - testing the app the way a user would use it
+* regression testing - making sure new changes didn't break * existing features
+
+ ### Testing Tools
+ - Mocha : Test Runner
+ - Chai: Assertion Library
+ - Jest:  Test Runner: popular!
+ - Add on Libraries to Jest
+
+ ### Testing Components
+ - (React) Testing Library
+ - add on to Jest - functions!
+ - life cycle of a component test
+  - render() component
+  - verify stuff is there that you expect
+  - search for element
+  - interact with that element
+  - verify stuff is there that you expect
+
+
+
 
 ## Tools for Testing React
 - Jest - test runner
