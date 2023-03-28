@@ -17,11 +17,11 @@
  - unit == function
  - Integration, more than 1 unit (function)
  - interoperability of function
- - spectrum => 2 units(fn) , 2, 4........... all (application)
- - Unit ....... E2E (end to end) A-Z
+ - spectrum => 2 units:  2, 3, 4......... -> all (application)
+ - Unit ................ E2E (end to end) A-Z
  - static - linting
  - regression testing
- 
+
 * unit - testing the smallest piece of the app (function)
 * integration - testing pieces working together
 * end-to-end - testing the app the way a user would use it
