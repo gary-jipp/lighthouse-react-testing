@@ -44,9 +44,6 @@
   - interact with that element
   - verify stuff is there that you expect
 
-
-
-
 ## Tools for Testing React
 - Jest - test runner
 - Testing Library
