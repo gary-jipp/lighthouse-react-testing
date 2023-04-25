@@ -13,6 +13,7 @@
 - [ ] Integration Testing
 - [ ] Mocking functions / modules
 
+
 ### Types of Testing
  - unit == function
  - Integration, more than 1 unit (function)
