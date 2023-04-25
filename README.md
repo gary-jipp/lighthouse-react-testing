@@ -34,6 +34,11 @@
  - Jest:  Test Runner: popular!
  - Add on Libraries to Jest
 
+## Tools for Testing React
+- Jest - test runner
+- Testing Library
+- React Testing Library
+
  ### Testing Components
  - (React) Testing Library
  - add on to Jest - functions!
@@ -43,11 +48,6 @@
   - search for element
   - interact with that element
   - verify stuff is there that you expect
-
-## Tools for Testing React
-- Jest - test runner
-- Testing Library
-- React Testing Library
 
 ### Jest
 
