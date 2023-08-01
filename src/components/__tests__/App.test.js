@@ -21,6 +21,7 @@ describe('List Tests', () => {
     fireEvent.change(input, {target: {value: "Nathan Brown"}});
     // console.log(prettyDOM(input));
 
+    // Note: Need to `import '@testing-library/jest-dom'
     expect(screen.getByDisplayValue("Nathan Brown")).toBeInTheDocument();  // Need Jest-dom
   });
 
