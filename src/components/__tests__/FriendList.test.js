@@ -1,4 +1,7 @@
-import {screen, render, cleanup, fireEvent, prettyDOM} from "@testing-library/react";
+
+const {screen, render, cleanup, fireEvent, prettyDOM} = require("@testing-library/react");
+require("@testing-library/jest-dom");
+
 import FriendList from 'components/FriendList';
 
 const data = [
