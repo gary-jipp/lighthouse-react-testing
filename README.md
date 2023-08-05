@@ -7,3 +7,6 @@
 - https://testing-library.com/docs/guiding-principles/
 - [ ]List of "Roles"
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles
+
+
+Render - Query - Action - Expect
