@@ -1,4 +1,3 @@
-
 const {screen, render, cleanup, fireEvent, prettyDOM} = require("@testing-library/react");
 require("@testing-library/jest-dom");
 
