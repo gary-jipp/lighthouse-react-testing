@@ -12,5 +12,3 @@
 - [ ] Integration Testing
 - [ ] Mocking functions / modules
 - [ ] Test Coverage
-
-Render - Query - Action - Expect
