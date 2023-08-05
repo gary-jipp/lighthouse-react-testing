@@ -5,10 +5,10 @@
 - [ ] Structure of Tests
 - [ ] Unit Testing
 - [ ] Testing functions
-- [ ] Test Coverage
-- [ ] Testing React Components
+- [ ] Testing Components
 - [ ] Searching for Elements
 - [ ] Search Methods & Priority
 - [ ] Interacting with Components
 - [ ] Integration Testing
 - [ ] Mocking functions / modules
+- [ ] Test Coverage
