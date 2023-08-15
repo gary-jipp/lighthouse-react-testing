@@ -5,13 +5,14 @@
 - [ ] Structure of Tests
 - [ ] Unit Testing
 - [ ] Testing functions
-- [ ] Test Coverage
-- [ ] Testing React Components
-- [ ] Searching for Elements
+- [ ] Testing Components
+- [ ] Querying for Elements
 - [ ] Search Methods & Priority
 - [ ] Interacting with Components
+- [ ] Test Cycle - Query - Action - Expect
 - [ ] Integration Testing
 - [ ] Mocking functions / modules
+- [ ] Test Coverage
 
 
 ### Types of Testing
