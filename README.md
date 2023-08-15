@@ -6,11 +6,10 @@
 - [ ] Unit Testing
 - [ ] Testing functions
 - [ ] Testing Components
-- [ ] Searching for Elements
+- [ ] Querying for Elements
 - [ ] Search Methods & Priority
 - [ ] Interacting with Components
+- [ ] Test Cycle - Query - Action - Expect
 - [ ] Integration Testing
 - [ ] Mocking functions / modules
 - [ ] Test Coverage
-
-Render - Query - Action - Expect
