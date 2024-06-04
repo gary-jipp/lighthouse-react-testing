@@ -5,11 +5,11 @@
 - [ ] Structure of Tests
 - [ ] Unit Testing
 - [ ] Testing functions
+- [ ] Test Coverage
 - [ ] Testing Components
 - [ ] Querying for Elements
 - [ ] Search Methods & Priority
 - [ ] Interacting with Components
 - [ ] Test Cycle - Query - Action - Expect
 - [ ] Integration Testing
-- [ ] Mocking functions / modules
-- [ ] Test Coverage
+- [ ] Mocking functions / modules *
