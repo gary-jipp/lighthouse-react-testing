@@ -6,6 +6,7 @@
 - [ ] Unit Testing
 - [ ] Testing functions
 - [ ] Test Coverage
+- [ ] Mocking functions / modules *
 - [ ] Testing Components
 - [ ] Stages of a UI Test
 - [ ] Querying for Elements
@@ -13,4 +14,3 @@
 - [ ] Interacting with Components
 - [ ] Test Cycle - Query - Action - Expect
 - [ ] Integration Testing
-- [ ] Mocking functions / modules *
